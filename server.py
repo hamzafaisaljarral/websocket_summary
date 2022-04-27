@@ -8,7 +8,9 @@ import websockets
 # create handler for each connection
 
 async def handler(websocket, path):
-    for i in range(100):
+    i = 0
+    while True:
+        i += 1
         jsonResult = json.dumps({"a": i, "b": randint(0, 2 ^ 32)})
         await websocket.send(jsonResult)
 

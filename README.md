@@ -48,7 +48,4 @@ To Run The Project:
 Second you need to run the client file
 -python client.py
 
-simply run the main.py file to get the summary of 1min of data 
--python main.py
-
 result will be printed on terminal

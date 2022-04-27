@@ -41,7 +41,9 @@ To Run The Project:
  First activate your venv
  -source venv/bin/activate
  -pip install websockets
+ws://209.126.82.146 (This websocket was working i created my own on localhost and port 8000)
 
+before running server.py file please free the localhost port 8000
  First you need to run the server file 
 -python server.py
 
